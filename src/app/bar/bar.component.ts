@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class BarComponent implements OnInit {
 
   constructor(translateService: TranslateService) {
-    translateService.use('en-US');
+    translateService.use('bar-en-US');
   }
 
   ngOnInit() {
